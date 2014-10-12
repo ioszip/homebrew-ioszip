@@ -8,6 +8,7 @@ class Ioszip < Formula
   skip_clean 'bin'
 
   def install
+  	prefix.install 'bin'
     bin.chmod 0755
   end
 
